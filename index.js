@@ -1,5 +1,5 @@
 const mqtt = require('mqtt')
-
+# HOST AND PORT
 const host = 'broker.emqx.io'
 const port = '1883'
 const clientId = `mqtt_${Math.random().toString(16).slice(3)}`
